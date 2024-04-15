@@ -1,5 +1,5 @@
 body{
-        width: 90%;
+        width: 85%;
         margin: auto;
         padding: 10px 0;
 }
@@ -71,7 +71,13 @@ header {
 .btnzakaz a:hover {
     background-color: rgb(201, 199, 199);
     border-color: black; 
-    box-shadow: 0px 0px 5px rgb(0, 0, 0); 
+    
 }
 
-    
+    /*header a{
+        display: inline-block;
+    }*/
+
+    header a:hover {
+        text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5); 
+    }
