@@ -5,7 +5,7 @@ body{
         background-color: rgb(94, 94, 94);
 }
 
- a, p {
+ a, p, h1, h2, h3, h4, h5, h6 {
         text-decoration: none;
         font-family: Comic sans ms;
         font-size: 16pt;
@@ -17,13 +17,14 @@ body{
         user-select: none;
     }
 
-header, footer, .blok {
+header, footer, .blok, content {
         border: 2px solid black;
         width: 100%;
         height: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
         background-color: rgb(197, 197, 197);
         margin-bottom: 10px ;
     }
